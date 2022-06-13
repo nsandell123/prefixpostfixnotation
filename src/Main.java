@@ -1,15 +1,14 @@
-import java.util.LinkedList;
 import java.util.Stack;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(conversionRPM("64-3+"));
+        System.out.println(conversionRPN("64-3+"));
     }
 
     //Problem Statement: Taking in an expression represented in RPN and output a number. My solution only works with one digit numbers
 
-    public static int conversionRPM(String input) {
+    public static int conversionRPN(String input) {
         //validation checking (Is there a relationship between number of operators and operands?
         //validation checking (During processing, you can check whether something is out of order)
         //validation checking (Only numeric characters and operators can exist)
